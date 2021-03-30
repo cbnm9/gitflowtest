@@ -94,4 +94,9 @@ class ApiTestController {
 				"msg" to "hello"
 			))
 	}
+
+	@GetMapping("/forgit")
+	fun forGit(): String {
+		return "Hello"
+	}
 }
