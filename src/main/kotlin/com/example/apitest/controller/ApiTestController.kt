@@ -97,6 +97,6 @@ class ApiTestController {
 
 	@GetMapping("/forgit")
 	fun forGit(): String {
-		return "H112f1fsdffdo"
+		return "H112f1fffdo"
 	}
 }
